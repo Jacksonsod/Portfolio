@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>   
+</head>
+<body>
+<nav class="navbar">
+  <a href="#" class="logo">Portfolio.</a>
+  <div class="nav-toggle" id="navToggle">
+    <i class='bx bx-menu'></i>
+  </div>
+  <ul id="navLinks">
+    <li><a href="#" class="active">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Portfolio</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+<div class="bars-animation">
+<div class="bar"style="--i:6;"></div>
+<div class="bar"style="--i:5;"></div>
+<div class="bar"style="--i:4;"></div>
+<div class="bar"style="--i:3;"></div>
+<div class="bar"style="--i:2;"></div>
+<div class="bar"style="--i:1;"></div>
+</div>
+<secction class="home">
+<div class="home-info">
+  <h1>Bimenyimana Jackson</h1>
+  <h2>I'm  a
+    <span style="--i:4;" data-text="Frotend Developer">Frotend Developer</span>
+    <span style="--i:3;" data-text="Backend Developer">Backend Developer</span>
+    <span style="--i:2;" data-text="Designer">Designer</span>
+    <span style="--i:1;" data-text="Youtuber">Youtuber</span>
+  </h2>
+  <p>I'm a passionate Front-End Developer who transforms ideas into beautiful, interactive web experiences. With a strong foundation in HTML, CSS, JavaScript, and modern frameworks like React, I love building responsive, user-friendly interfaces that deliver real value.
+
+I’m not just a coder—I’m a problem solver, a creative thinker, and a lifelong learner. Whether it's designing elegant UI layouts, optimizing performance, or crafting seamless user flows, I focus on writing clean, scalable code that brings designs to life.</p>
+<div class="btn-sci">
+<a href="#" class="btn">Download CV</a>
+<div class="sci">
+<a href="#"><i class='bx bxl-github'></i></a>
+<a href="#"><i class='bx bxl-linkedin' ></i></a>
+<a href="#"><i class='bx bxl-twitter' ></i></a>
+<a href="#"><i class='bx bxl-youtube' ></i></a>
+</div>
+</div>
+</div>
+<div class="home-img">
+<div class="img-box">
+<div class="img-item">
+<img src="Jackson.jpg" alt="">
+</div>
+</div>
+</div>
+</secction>
+<section class="services">
+  <h2>Services</h2>
+  <div class="services-list">
+    <div class="service-item">
+      <i class='bx bx-code-alt'></i>
+      <h3>Web Development</h3>
+      <p>Building responsive and modern websites using HTML, CSS, JavaScript, and React.</p>
+    </div>
+    <div class="service-item">
+      <i class='bx bx-paint'></i>
+      <h3>UI/UX Design</h3>
+      <p>Designing user-friendly interfaces and experiences for web and mobile apps.</p>
+    </div>
+    <div class="service-item">
+      <i class='bx bx-mobile-alt'></i>
+      <h3>Mobile Apps</h3>
+      <p>Creating cross-platform mobile applications with a focus on performance and usability.</p>
+    </div>
+  </div>
+</section>
+
+<section class="contact">
+  <h2>Contact Us</h2>
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+</section>
+<script>
+document.getElementById("navToggle").onclick = function() {
+  document.getElementById("navLinks").classList.toggle("show");
+};
+// document.getElementById("navToggle").onclick = function() {
+// document.getElementById("navLinks").classList.toggle("show");
+
+</script>
+</body>
+</html>
