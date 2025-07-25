@@ -69,7 +69,7 @@ a{
   animation-delay: 1.6s;
   padding-top: 120px; /* Add space below navbar */
   margin-top: 100px; /* Space below navbar */
-  background: #23272f;
+  background: #1f242d;
 }
 @media (max-width: 600px) {
   .home {
@@ -550,7 +550,24 @@ overflow: hidden;
     font-size: 24px;
   }
 }
+
+/* Footer styles */
+footer {
+  background: #1f242d;
+  color: #7cf03d;
+  text-align: center;
+  padding: 28px 0;
+  margin-top: 48px;
+  font-size: 17px;
+  letter-spacing: 1px;
+  border-top: 1px solid #23272f;
+  box-shadow: 0 -2px 16px rgba(124,240,61,0.08);
 }
-section {
-  background: #23272f;
+
+@media (max-width: 600px) {
+  footer {
+    padding: 18px 0;
+    font-size: 15px;
+    margin-top: 32px;
+  }
 }
