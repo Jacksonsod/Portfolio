@@ -490,6 +490,7 @@ overflow: hidden;
   max-width: 280px;
   text-align: center;
   box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  margin: auto;
 }
 
 .service-item i {
@@ -541,6 +542,7 @@ overflow: hidden;
   .services-list {
     flex-direction: column;
     gap: 18px;
+    margin: auto;
   }
   .services, .contact {
     padding: 24px 4vw;
@@ -570,4 +572,4 @@ footer {
     font-size: 15px;
     margin-top: 32px;
   }
-}
+}}
